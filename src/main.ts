@@ -1,5 +1,7 @@
-import animateTitle from './features/animateTitle'
-import createBadge from './features/createBasge'
-import './styles/style.css'
+import './styles/style.scss'
+import global from './features/global'
+import home from './features/home'
+console.log('Welcome to Vite + TypeScript + Webflow <3')
 
-console.log('Welcome to Vite + TypeScript + Webflow!')
+global()
+home()
